@@ -1,8 +1,6 @@
 module MoscariniPostelVinay2016
 
-    using Pkg, Plots, Random, Distributions, QuantEcon, LinearAlgebra, DelimitedFiles, Statistics, Kronecker, JLD
-
-    Pkg.instantiate()
+    using Plots, Random, Distributions, QuantEcon, LinearAlgebra, DelimitedFiles, Statistics, Kronecker, JLD
 
     include("calibration.jl")
     include("wagepost_dyn.jl")
