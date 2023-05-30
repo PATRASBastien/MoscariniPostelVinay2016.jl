@@ -25,7 +25,7 @@ Random, Distributions, QuantEcon, LinearAlgebra, DelimitedFiles, Statistics, Kro
 
 We recommend running these lines to compute the figure from the paper:
 
-<pre><code>using MoscariniPostelVinay_Replication
+<pre><code>using MoscariniPostelVinay2016
 S, P, TB = setup_simulation(291198, 101, 12*5, 12*50, 12*70, .94, .006, 20, 0, 10, 2.5, .95^(1/12), 1, 49, 44, .13)
 SIM, S, EXO = simulateModel(0, "noexit")
 p = plot_final(SIM, S, P, EXO)
