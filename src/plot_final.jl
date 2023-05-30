@@ -1,9 +1,3 @@
-using Plots
-
-# Include the other files
-include("calibration.jl")
-include("sim_values.jl")
-include("wagepost_dyn.jl")
 
 @doc """
 plot_final(SIM, S, P, EXO)

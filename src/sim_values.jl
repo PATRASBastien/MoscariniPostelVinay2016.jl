@@ -1,6 +1,3 @@
-include("calibration.jl")
-
-using Kronecker
 
 @doc """
 Returning the structure SIM of all simulated series, including an updated path of job ads a_t(p), 

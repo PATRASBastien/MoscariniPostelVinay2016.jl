@@ -1,5 +1,3 @@
-using Random, Distributions, QuantEcon, LinearAlgebra, DelimitedFiles, Statistics, Kronecker
-
 
 function setup_simulation(seed, gs, trim_beg, trim_end, tmax, rho, sigma, ns, b, pmax, a, beta, m_exp, mcv_exp, mcv_scale, s)
 

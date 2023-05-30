@@ -1,8 +1,4 @@
-# Include the other files
-include("calibration.jl")
-include("sim_values.jl")
 
-using Random, LinearAlgebra, DelimitedFiles, JLD, Kronecker
 
 function simulateModel(skip_1st_step, exit_chk)
     

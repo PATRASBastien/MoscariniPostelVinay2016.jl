@@ -1,6 +1,6 @@
 module MoscariniPostelVinay2016
 
-    using Pkg
+    using Pkg, Plots, Random, Distributions, QuantEcon, LinearAlgebra, DelimitedFiles, Statistics, Kronecker, JLD
 
     Pkg.instantiate()
 
