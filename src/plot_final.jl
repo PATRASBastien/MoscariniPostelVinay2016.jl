@@ -1,4 +1,6 @@
 
+using Plots, Random, Distributions, QuantEcon, LinearAlgebra, DelimitedFiles, Statistics, Kronecker
+
 @doc """
 plot_final(SIM, S, P, EXO)
 
