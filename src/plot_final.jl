@@ -34,3 +34,4 @@ function plot_final(SIM, S, P, EXO)
 
     return p
 end
+

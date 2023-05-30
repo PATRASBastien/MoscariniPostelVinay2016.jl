@@ -40,11 +40,9 @@ function simulateModel(skip_1st_step, exit_chk)
         _, SIM = simvalues(EXO["omega"], EXO["c_st_i"], S, P, TB, exit_chk, exit0, [], x_a, "par")
         a0 = SIM["a"]
         dist = 10
-        save("a_initial_guess.jld", "a0", a0, "exit0", exit0, "dist", dist)
     end
 
     # second non-parametric round, starting from some initial guess (e.g. a parametric approximation obtained before)
-    load("a_initial_guess.jld", "a0", "exit0", "dist")
     i = 0
     relmax = 0.5
     relaxation = relmax
@@ -78,7 +76,6 @@ function simulateModel(skip_1st_step, exit_chk)
             dist = dist_1
         end
     end
-    save("a_initial_guess.jld", "a0", a0, "exit0", exit0, "dist", dist)
 
     # Housekeeping
     for varname in names(Main)
