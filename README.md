@@ -1,8 +1,8 @@
 # Moscarini, Postel-Vinay (2016) Replication
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://PATRASBastien.github.io/MoscariniPostelVinay_Replication.jl/stable/)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://PATRASBastien.github.io/MoscariniPostelVinay_Replication.jl/dev/)
-[![Build Status](https://github.com/PATRASBastien/MoscariniPostelVinay_Replication.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/PATRASBastien/MoscariniPostelVinay_Replication.jl/actions/workflows/CI.yml?query=branch%3Amaster)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://patrasbastien.github.io/MoscariniPostelVinay2016.jl/dev/)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://patrasbastien.github.io/MoscariniPostelVinay2016.jl/dev/) 
+[![Build Status](https://github.com/PATRASBastien/MoscariniPostelVinay2016.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://patrasbastien.github.io/MoscariniPostelVinay2016.jl/dev/)
 
 This repository contains the Julia package replicating the computational part of the paper:
 
